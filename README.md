@@ -19,8 +19,7 @@ A simple and reliable command-line application to track books and their page cou
 
 ## Folder Structure
 
-project/
-│
+│project/
 ├─ src/
 │   └─ bookmgr/
 │       ├─ cli.py
@@ -73,5 +72,6 @@ PYTHONPATH=src pytest
 
 ## License
 Open source under the MIT License.
+
 
 
