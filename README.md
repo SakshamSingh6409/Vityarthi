@@ -19,32 +19,32 @@ A simple and reliable command-line application to track books and their page cou
 
 ## Folder Structure
 
-│project/
+project/
+│
 ├─ src/
-│   └─ bookmgr/
-│       ├─ cli.py
-│       ├─ books.py
-│       ├─ storage.py
-│       ├─ config.py
-│       ├─ variables.py
-│       └─ __init__.py
+│ └─ bookmgr/
+│ ├─ cli.py
+│ ├─ books.py
+│ ├─ storage.py
+│ ├─ config.py
+│ ├─ variables.py
+│ └─ init.py
 ├─ data/
-│   ├─ data.json
-│   └─ data_backup.json
+│ ├─ data.json
+│ └─ data_backup.json
 ├─ tests/
-│   ├─ test_books.py
-│   └─ test_storage.py
+│ ├─ test_books.py
+│ └─ test_storage.py
 ├─ docs/
-│   ├─ architecture.md
-│   ├─ workflow.md
-│   ├─ use-case.md
-│   ├─ sequence.md
-│   ├─ er-schema.md
-│   └─ class-component.md
+│ ├─ architecture.md
+│ ├─ workflow.md
+│ ├─ use-case.md
+│ ├─ sequence.md
+│ ├─ er-schema.md
+│ └─ class-component.md
 ├─ requirements.txt
 ├─ README.md
 └─ statement.md
-
 
 ## Getting Started
 Create a virtual environment and install dependencies:
@@ -72,6 +72,3 @@ PYTHONPATH=src pytest
 
 ## License
 Open source under the MIT License.
-
-
-
